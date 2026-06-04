@@ -211,6 +211,9 @@ apply_all_in_dir() {
     apply_patch "../patches/game-patches/silence-starcitizen-unsupported-os.patch"
     apply_patch "../patches/game-patches/eac_60101_timeout.patch"
 
+    echo "WINE: -GAME FIXES- TBH: Task Bar Hero (3678970) transparent overlay fix"
+    apply_patch "../patches/game-patches/tbh-overlay-fix.patch"
+
 
 ### END GAME PATCH SECTION ###
 
